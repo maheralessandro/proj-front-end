@@ -76,7 +76,7 @@ function Detail() {
     </div>
 
 
-    <div style={{ display:"flex" , justifyContent:"space-around", width:"80%",alignItems:"flex-end" , paddingTop:"50px"}}>
+    <div style={{ display:"flex" , justifyContent:"space-around", width:"80%",alignItems:"flex-end" , paddingTop:"50px" , marginBottom:"100px"}}>
     
       
       <Card
