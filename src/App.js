@@ -26,11 +26,11 @@ function App() {
   let location = useLocation();
   return (
     <>
-    <div className='app' style={{marginBottom:"100px"}}>
+    
       {user?.role ==="user" || !location.pathname.includes('admin') ?
   <NavbarScroll />:null}
       
-
+    <div className='app' style={{paddingBottom:"100px"}}>
       <Routes>
 
         <Route path='/register' element={<Register/>}/>
