@@ -11,7 +11,7 @@ function ProdCard({prod}) {
   
   return (
     <Card style={{ width: '18rem' , marginBottom:"40px"}}>
-      <Card.Img variant="top" src={prod?.image[0]} alt = "prod" height={260}/>
+      <Card.Img variant="top" src={`https://proj-backend-22sy.onrender.com/${prod?.image[0]}`} alt = "prod" height={260}/>
       <Card.Body style={{display : 'flex' , flexDirection:"column" , justifyContent : 'end'}}>
         <Card.Title>NAME : {prod.nameProdut}</Card.Title>
         <Card.Text>
