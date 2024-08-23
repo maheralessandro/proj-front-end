@@ -66,7 +66,7 @@ function Detail() {
      <div style={{display:"flex", justifyContent:"center"}}>
       <img height={280}
         className="d-block w-60"
-        src={`http://localhost:3000/${item}`}
+        src={`http://proj-backend-22sy.onrender.com/${item}`}
         alt={`index slide`}
       />
       </div>
