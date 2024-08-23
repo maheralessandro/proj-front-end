@@ -57,7 +57,7 @@ function Detail() {
   
 
   return (
-   <div style={{display : 'flex' , alignItems : "center" , flexDirection:"column" ,marginTop :"50px"}}>
+   <div style={{display : 'flex' , alignItems : "center" , flexDirection:"column" ,marginTop :"50px" , marginBottom : "100px"}}>
     <div>
     <Carousel data-bs-theme="dark" style={{ width: '18rem' }}>
     {
